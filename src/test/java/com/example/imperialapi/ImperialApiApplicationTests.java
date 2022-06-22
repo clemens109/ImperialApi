@@ -7,7 +7,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ImperialApiApplicationTests {
 
     @Test
-    void contextLoads() {
+    void cmTest(){
+        double a = 5;
+        double expected = 12.7;
+
+        double result = cm(a);
+
+        assertEquals(expected,result);
     }
 
 }
