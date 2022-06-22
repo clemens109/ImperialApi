@@ -11,6 +11,16 @@ class ImperialApiApplicationTests {
 
 
     @Test
+    void cmTest(){
+        double a = 5;
+        double expected = 12.7;
+
+        double result = cm(a);
+
+        assertEquals(expected,result);
+    }
+  
+     @Test
     void mTest(){
         double a = 2;
         double expected = 1.8288;
