@@ -6,8 +6,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ImperialApiApplicationTests {
 
+
+
+
+
     @Test
-    void contextLoads() {
+    void mTest(){
+        double a = 2;
+        double expected = 1.8288;
+
+        double result = m(a);
+
+        assertEquals(expected,result);
     }
 
 }
