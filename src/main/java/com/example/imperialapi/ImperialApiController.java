@@ -13,4 +13,8 @@ public class ImperialApiController {
         return 2.54 * a;
     }
 
+    @RequestMapping("/ytom")
+    public double m(@RequestParam int a) {
+        return a * 0.9144;
+    }
 }
